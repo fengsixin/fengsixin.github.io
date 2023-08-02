@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [中文](#) | [English](https://github.com/hugo-next/hugo-theme-next-starter/blob/main/README.md)
 
 # Hugo NexT 主题启动器
@@ -108,3 +109,6 @@ Press Ctrl+C to stop
 [MIT 许可证](LICENSE)
 
 Copyright (c) 2022， hugo-next 团队
+=======
+# fengsixin.github.io
+>>>>>>> 1ef5cef6c67a485134ec8e09d843023dcabbded5
