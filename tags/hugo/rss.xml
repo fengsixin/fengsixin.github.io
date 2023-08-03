@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on fsx'blog</title><link>https://fengsixin.github.io/post/</link><description>Recent content in Posts on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Aug 2023 08:46:46 +0800</lastBuildDate><atom:link href="https://fengsixin.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>HUGO部署2-插入图片实验</title><link>https://fengsixin.github.io/post/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%AE%9E%E9%AA%8C/</link><pubDate>Thu, 03 Aug 2023 08:46:46 +0800</pubDate><guid>https://fengsixin.github.io/post/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%AE%9E%E9%AA%8C/</guid><description>&lt;h1 id="直接放置">直接放置
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on fsx'blog</title><link>https://fengsixin.github.io/tags/hugo/</link><description>Recent content in hugo on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Aug 2023 08:46:46 +0800</lastBuildDate><atom:link href="https://fengsixin.github.io/tags/hugo/rss.xml" rel="self" type="application/rss+xml"/><item><title>HUGO部署2-插入图片实验</title><link>https://fengsixin.github.io/post/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%AE%9E%E9%AA%8C/</link><pubDate>Thu, 03 Aug 2023 08:46:46 +0800</pubDate><guid>https://fengsixin.github.io/post/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%AE%9E%E9%AA%8C/</guid><description>&lt;h1 id="直接放置">直接放置
 &lt;a class="header-anchor" href="#%e7%9b%b4%e6%8e%a5%e6%94%be%e7%bd%ae">&lt;/a>
 &lt;/h1>&lt;p>！
 &lt;a href="https://fengsixin.github.io/images/fsxdesignlogo.png" title="fsxdesignlog" >
@@ -20,4 +20,4 @@ fsxdesignlog
 &lt;h4>图1&lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/center></description></item><item><title>Helloworld</title><link>https://fengsixin.github.io/post/helloworld/</link><pubDate>Tue, 01 Aug 2023 11:55:46 +0800</pubDate><guid>https://fengsixin.github.io/post/helloworld/</guid><description>&lt;p>helloworld&lt;/p></description></item></channel></rss>
+&lt;/center></description></item></channel></rss>

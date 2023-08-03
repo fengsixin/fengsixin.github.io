@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>我的设计小站</title><link>https://www.fsx.design/</link><description>Recent content on 我的设计小站</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 01 Aug 2023 11:55:46 +0800</lastBuildDate><atom:link href="https://www.fsx.design/rss.xml" rel="self" type="application/rss+xml"/><item><title>Helloworld</title><link>https://www.fsx.design/post/helloworld/</link><pubDate>Tue, 01 Aug 2023 11:55:46 +0800</pubDate><guid>https://www.fsx.design/post/helloworld/</guid><description>&lt;p>helloworld&lt;/p></description></item><item><title>关于fsx.design</title><link>https://www.fsx.design/about.html</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://www.fsx.design/about.html</guid><description>Hi，我是冯思昕，这是我的个人blog。比较懒，想起来就写一下^_^ 愿景 40岁退休过上养老生活。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fsx'blog</title><link>https://fengsixin.github.io/</link><description>Recent content on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Aug 2023 08:46:46 +0800</lastBuildDate><atom:link href="https://fengsixin.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>HUGO部署2-插入图片实验</title><link>https://fengsixin.github.io/post/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%AE%9E%E9%AA%8C/</link><pubDate>Thu, 03 Aug 2023 08:46:46 +0800</pubDate><guid>https://fengsixin.github.io/post/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%AE%9E%E9%AA%8C/</guid><description>&lt;h1 id="直接放置">直接放置
+&lt;a class="header-anchor" href="#%e7%9b%b4%e6%8e%a5%e6%94%be%e7%bd%ae">&lt;/a>
+&lt;/h1>&lt;p>！
+&lt;a href="https://fengsixin.github.io/images/fsxdesignlogo.png" title="fsxdesignlog" >
+fsxdesignlog
+&lt;/a>&lt;/p>
+&lt;h1 id="html方法放置1">html方法放置1
+&lt;a class="header-anchor" href="#html%e6%96%b9%e6%b3%95%e6%94%be%e7%bd%ae1">&lt;/a>
+&lt;/h1>&lt;img src="https://fengsixin.github.io/images/fsxdesignlogo.png" width="50%" align="center" />
+&lt;h1 id="html方法放置2">html方法放置2
+&lt;a class="header-anchor" href="#html%e6%96%b9%e6%b3%95%e6%94%be%e7%bd%ae2">&lt;/a>
+&lt;/h1>&lt;center>&lt;img src="https://fengsixin.github.io/images/fsxdesignlogo.png" width="50%" />&lt;/center>
+&lt;h1 id="html方法放置2-显示图注">html方法放置2 显示图注
+&lt;a class="header-anchor" href="#html%e6%96%b9%e6%b3%95%e6%94%be%e7%bd%ae2-%e6%98%be%e7%a4%ba%e5%9b%be%e6%b3%a8">&lt;/a>
+&lt;/h1>&lt;center>&lt;img src="https://fengsixin.github.io/images/fsxdesignlogo.png" width="50%" />&lt;/center>
+&lt;center>图1&lt;/center>
+&lt;h1 id="figure方法">figure方法
+&lt;a class="header-anchor" href="#figure%e6%96%b9%e6%b3%95">&lt;/a>
+&lt;/h1>&lt;center>&lt;figure>&lt;img src="https://fengsixin.github.io/images/fsxdesignlogo.png" width="50%"/>&lt;figcaption>
+&lt;h4>图1&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/center></description></item><item><title>Helloworld</title><link>https://fengsixin.github.io/post/helloworld/</link><pubDate>Tue, 01 Aug 2023 11:55:46 +0800</pubDate><guid>https://fengsixin.github.io/post/helloworld/</guid><description>&lt;p>helloworld&lt;/p></description></item><item><title>关于fsx.design</title><link>https://fengsixin.github.io/about.html</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://fengsixin.github.io/about.html</guid><description>Hi，我是冯思昕，这是我的个人blog。比较懒，想起来就写一下^_^ 愿景 40岁退休过上养老生活。</description></item></channel></rss>
