@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on fsx'blog</title><link>https://fsx.design/post/</link><description>Recent content in Posts on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Aug 2023 08:46:46 +0800</lastBuildDate><atom:link href="https://fsx.design/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>HUGO部署2-插入图片实验</title><link>https://fsx.design/post/20230803/</link><pubDate>Thu, 03 Aug 2023 08:46:46 +0800</pubDate><guid>https://fsx.design/post/20230803/</guid><description>&lt;h1 id="html方法放置1">html方法放置1
-&lt;a class="header-anchor" href="#html%e6%96%b9%e6%b3%95%e6%94%be%e7%bd%ae1">&lt;/a>
-&lt;/h1>&lt;img src="https://fsx.design/images/fsxdesignlogo.png" width="50%" align="center" />
-&lt;h1 id="html方法放置2">html方法放置2
-&lt;a class="header-anchor" href="#html%e6%96%b9%e6%b3%95%e6%94%be%e7%bd%ae2">&lt;/a>
-&lt;/h1>&lt;center>&lt;img src="https://fsx.design/images/fsxdesignlogo.png" width="50%" />&lt;/center>
-&lt;h1 id="html方法放置2-显示图注">html方法放置2 显示图注
-&lt;a class="header-anchor" href="#html%e6%96%b9%e6%b3%95%e6%94%be%e7%bd%ae2-%e6%98%be%e7%a4%ba%e5%9b%be%e6%b3%a8">&lt;/a>
-&lt;/h1>&lt;center>&lt;img src="https://fsx.design/images/fsxdesignlogo.png" width="50%" />&lt;/center>
-&lt;center>图1&lt;/center>
-&lt;h1 id="figure方法">figure方法
-&lt;a class="header-anchor" href="#figure%e6%96%b9%e6%b3%95">&lt;/a>
-&lt;/h1>&lt;center>&lt;figure>&lt;img src="https://fsx.design/images/fsxdesignlogo.png" width="50%"/>&lt;figcaption>
-&lt;h4>图1&lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/center></description></item><item><title>Helloworld</title><link>https://fsx.design/post/20230801/</link><pubDate>Tue, 01 Aug 2023 11:55:46 +0800</pubDate><guid>https://fsx.design/post/20230801/</guid><description>&lt;p>你好，世界！&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on fsx'blog</title><link>https://fsx.design/post/</link><description>Recent content in Posts on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 01 Aug 2023 11:55:46 +0800</lastBuildDate><atom:link href="https://fsx.design/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>Helloworld</title><link>https://fsx.design/post/20230801-helloworld/</link><pubDate>Tue, 01 Aug 2023 11:55:46 +0800</pubDate><guid>https://fsx.design/post/20230801-helloworld/</guid><description>&lt;p>你好，世界！&lt;/p></description></item></channel></rss>
