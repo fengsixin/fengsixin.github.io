@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>POL on fsx'blog</title><link>https://fsx.design/categories/pol/</link><description>Recent content in POL on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 08 Aug 2023 10:12:15 +0800</lastBuildDate><atom:link href="https://fsx.design/categories/pol/rss.xml" rel="self" type="application/rss+xml"/><item><title>全光网的那些事儿(1)</title><link>https://fsx.design/post/20230808-note/</link><pubDate>Tue, 08 Aug 2023 10:12:15 +0800</pubDate><guid>https://fsx.design/post/20230808-note/</guid><description>&lt;blockquote>
+&lt;p>PON(Passive Optical Network)无源光纤网络，是目前接入网的主流解决方案。市场上主要存在EPON，10GEPON，GPON，XG-PON，XGS-PON等标准的PON网络可供选择。&lt;/p>
+&lt;/blockquote>
+&lt;p>目前在运营商市场，EPON、10GEPON标准主要被电信、联通选用。移动则选择GPON、XG-PON技术方案；在日常商用市场上，则是GPON、XG-PON技术方案占据主流。很少见到EPON设备。&lt;/p>
+&lt;p>PON网络由三部分组成、分别是光线路终端OLT（Optical Line Terminal）、ODN光分配网（Optical Distribution Network）,光网络单元 ONU（ Optical Network Unit）。&lt;/p>
+&lt;center>&lt;img src="https://production.fsxpic.fsx.workers.dev/imgs/xgpon.png" width="50%" />&lt;/center>
+&lt;center>图1 XG-PON网络结构示意图&lt;/center>
+XG-PON是基于ITU-T G.987的无源光网络接入技术，是由ITU-T G.984（GPON）标准演进而来。而不同PON标准技术区别如下图：
+&lt;center>&lt;img src="https://production.fsxpic.fsx.workers.dev/imgs/PON%E9%80%9F%E7%8E%87.png" width="50%" title="图2 PON标准差异图" >&lt;/center>
+&lt;center>图2 PON标准差异图&lt;/center>
+好了，本篇结束。</description></item></channel></rss>
