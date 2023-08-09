@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PON on fsx'blog</title><link>https://fsx.design/tags/pon/</link><description>Recent content in PON on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 08 Aug 2023 10:12:15 +0800</lastBuildDate><atom:link href="https://fsx.design/tags/pon/rss.xml" rel="self" type="application/rss+xml"/><item><title>全光网的那些事儿(1)</title><link>https://fsx.design/post/20230808-note/</link><pubDate>Tue, 08 Aug 2023 10:12:15 +0800</pubDate><guid>https://fsx.design/post/20230808-note/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PON on fsx'blog</title><link>https://fsx.design/tags/pon/</link><description>Recent content in PON on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Aug 2023 09:25:50 +0800</lastBuildDate><atom:link href="https://fsx.design/tags/pon/rss.xml" rel="self" type="application/rss+xml"/><item><title>全光网的那些事儿(2)</title><link>https://fsx.design/post/20230809-pol/</link><pubDate>Wed, 09 Aug 2023 09:25:50 +0800</pubDate><guid>https://fsx.design/post/20230809-pol/</guid><description>&lt;p>目前广泛使用的PON技术在现有的网络包括两种主流技术：EPON和GPON:&lt;/p>
+&lt;center>&lt;img src="https://production.fsxpic.fsx.workers.dev/imgs/PON%E6%BC%94%E8%BF%9B.png" width="50%" />&lt;/center>
+&lt;center>图1 XG-PON网络结构示意图&lt;/center>
+GPON最早由**FSAN**组织于2002年9月提出，**ITU-T**在此基础上于2003年1月正式通过了GPON标准系列中的两个标准G.984.1和G.984.2。从2004年开始，ITU又相继批准并颁布了G.984.3和G.984.4，最终形成了G.984.x标准族。目前该系列建议书共有G.984.1~G.984.7等7部分组成。
+&lt;p>EPON技术由&lt;strong>IEEE 802.3 EFM&lt;/strong>工作组进行标准化。2004年6月，IEEE802.3EFM工作组发布了EPON标准——IEEE802.3ah （2005年并入IEEE802.3-2005标准）。在该标准中将以太网和PON技术结合，在物理层采用PON技术，在数据链路层使用以太网协议，利用PON的拓扑结构实现以太网接入。&lt;/p>
+&lt;p>可以看到GPON与EPON均在2004年前后制定完成，但因为EPON标准仅在物理层及数据链路层与以太网有所区别，所以EPON设备芯片可以大量复用以太网技术芯片设计。这也导致了EPON设备芯片更早的ASIC（专用集成芯片）化，成本大大低于同时期GPON设备（2004-2008年）。同期日本、美国运营商大量使用EPON技术组网建设。这一时期，EPON被电信引入国内开始规模建设，并一直延续至今。&lt;/p>
+&lt;p>这一时期，GPON芯片不断成熟，设备价格不断下降至2009年左右已经开始在规模建设中整体性价比超过EPON设备。因为成本的快速下降GPON的标准优势开始慢慢被放大，而EPON的劣势也慢慢显示出来：比如EPON（1.24G）下行带宽仅有GPON（2.5G）的一半、EPON的分光比（1:32）也仅有GPON（1:64）标准的一半、EPON协议传输效率（72%）低于GPON协议传输效率（92%）、EPON不同厂家设备无法互通（EPON协议自由度非常高，各厂家各自对协议进行完善导致）等等。故09年以后商用市场上GPON开始变成主流。&lt;/p>
+&lt;p>10G EPON的标准制定（IEEE 802.3av）从2006年开始，2009年9月正式颁布标准。IEEE 802.3av确定了两种物理层模式，一种是非对称模式，即10G速率下行和1G速率上行；另外一种是对称模式，即上下行速率均为10G。&lt;/p>
+&lt;p>IEEE先打了个样，ITU-T/FSAN自然不敢怠慢。一开始也说要推出非对称（10G速率下行和2.5G速率上行）和对称模式（10G速率下行和10G速率上行）。但是大家研究了两年发现对称模式貌似搞不定，于是2009年ITU-T发布G.987时，把XG-PON2删除，保留XG-PON1，因为实际上发布的标准只有非对称，就叫做XG-PON （X是罗马数字10，也就是10G GPON的意思）。可早年参与这些产业讨论的人，还是习惯的把非对称叫XG-PON1。直到2016年ITU-T/FSAN终于搞定了对称模式(ITU-T G.9807.1)，当年删掉的对称XG-PON2，重新起个名字 对称 symmetric的S用上，叫做XGS-PON。&lt;/p>
+&lt;p>中间还有个插曲，在10G这一代PON技术下。不论是GPON还是EPON都是只采用TDM PON（时分复用）技术，只使用单光源已降低成本。但是部分运营商（如Verizon）即厂家对下一代PON技术的演进提出了不同的想法，其主张将TDM结合WDM（波分复用技术）形成TWDM PON技术。采用1G-10G-40G（4&lt;em>10）-100G（4&lt;/em>25）的演进路线，并由FSAN与2014年发布NG-PON2标准，采用TWDM PON技术达到40G速率等级。但该技术在国内实际上并未采用。&lt;/p>
+&lt;p>下一代PON技术：&lt;/p>
+&lt;center>&lt;img src="https://production.fsxpic.fsx.workers.dev/imgs/Network_diagram-02.jpg" width="50%" />&lt;/center>
+&lt;center>图1 XG-PON网络结构示意图&lt;/center>
+10G PON之后的下一代PON技术发展趋势主要有两个方向：一是提高单波长速率；二是多波长复用提高总速率。IEEE率先启动了10G PON后下一代PON技术的标准制定，单根光纤上支持25Gbps下行速率，同时支持10Gbps/25Gbps上行速率，并支持和10G-EPON的兼容。对于50Gbps带宽需求，采用多波长叠加技术和通道绑定技术提供两个25Gbps通道，实现50Gbps速率。
+&lt;p>而&lt;strong>ITU-T/FSAN&lt;/strong>则采用了&lt;strong>中国方案（中国电信、中国移动、中国联通、中国信息通信研究院、华为、中兴、烽火、上海诺基亚贝尔）&lt;/strong>，聚焦单通道速率为50Gbps的50G-PON技术。采用单波50G方案，速率演进路线为10G-50G-100G（2&lt;em>50）-200G（4&lt;/em>50）。&lt;/p>
+&lt;blockquote>
+&lt;p>FSAN（Full Service Access Networks，全业务接入网）联盟是由运营商主导的光接入标准论坛，其成员主要是网络运营商、设备制造商以及作为观察员的业内资深专家，GPON技术提供语音、数据和视频等三网融合业务能力，GPON是由运营商推动建立的标准，对带宽、业务承载、管理和维护等考虑得更多。&lt;/p>
+&lt;/blockquote></description></item><item><title>全光网的那些事儿(1)</title><link>https://fsx.design/post/20230808-pol/</link><pubDate>Tue, 08 Aug 2023 10:12:15 +0800</pubDate><guid>https://fsx.design/post/20230808-pol/</guid><description>&lt;blockquote>
 &lt;p>PON(Passive Optical Network)无源光纤网络，是目前接入网的主流解决方案。市场上主要存在EPON，10GEPON，GPON，XG-PON，XGS-PON等标准的PON网络可供选择。&lt;/p>
 &lt;/blockquote>
 &lt;p>目前在运营商市场，EPON、10GEPON标准主要被电信、联通选用。移动则选择GPON、XG-PON技术方案；在日常商用市场上，则是GPON、XG-PON技术方案占据主流。很少见到EPON设备。&lt;/p>
