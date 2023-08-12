@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>echart on fsx'blog</title><link>https://fsx.design/tags/echart/</link><description>Recent content in echart on fsx'blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 12 Aug 2023 16:29:44 +0800</lastBuildDate><atom:link href="https://fsx.design/tags/echart/rss.xml" rel="self" type="application/rss+xml"/><item><title>尝试在hugo中引入echart（1）</title><link>https://fsx.design/post/20230812-note/</link><pubDate>Sat, 12 Aug 2023 16:29:44 +0800</pubDate><guid>https://fsx.design/post/20230812-note/</guid><description>&lt;p>第一次尝试，失败&lt;/p>
+&lt;p>O(∩_∩)O哈哈~&lt;/p>
+&lt;p>想和math公式渲染一样在配置页引入，发现有问题。应该还是没搞懂怎么把js引入
+&lt;code>&amp;lt;/head&amp;gt;&lt;/code>中，还得再研究研究，今天就到这里吧！&lt;/p></description></item></channel></rss>
