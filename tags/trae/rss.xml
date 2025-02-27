@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trae on fsx'blog</title><link>http://localhost:1414/tags/trae/</link><description>Recent content in Trae on fsx'blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 27 Feb 2025 08:18:59 +0800</lastBuildDate><atom:link href="http://localhost:1414/tags/trae/rss.xml" rel="self" type="application/rss+xml"/><item><title>Trae体验日记：初步使用</title><link>http://localhost:1414/post/20250227-note/</link><pubDate>Thu, 27 Feb 2025 08:18:59 +0800</pubDate><guid>http://localhost:1414/post/20250227-note/</guid><description>&lt;blockquote>
+&lt;p>&lt;strong>环境说明:&lt;/strong> MacOS Voyager 14.2 / 32GB+效能模式
+&lt;strong>重度使用时长:&lt;/strong> 48小时&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="-人机交互实录">🎮 人机交互实录
+&lt;a class="header-anchor" href="#-%e4%ba%ba%e6%9c%ba%e4%ba%a4%e4%ba%92%e5%ae%9e%e5%bd%95">&lt;/a>
+&lt;/h2>&lt;h3 id="智能补全的魔法时刻">智能补全的魔法时刻
+&lt;a class="header-anchor" href="#%e6%99%ba%e8%83%bd%e8%a1%a5%e5%85%a8%e7%9a%84%e9%ad%94%e6%b3%95%e6%97%b6%e5%88%bb">&lt;/a>
+&lt;/h3>&lt;p>在编写Vue组件时，刚键入 &lt;code>const mess&lt;/code>，IDE就弹出建议：&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">const&lt;/span> messages &lt;span style="color:#ff79c6">=&lt;/span> ref&lt;span style="color:#ff79c6">&amp;lt;&lt;/span>ChatMessage[]&lt;span style="color:#ff79c6">&amp;gt;&lt;/span>([])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">// 并自动带出了我前两天项目里自定义的ChatMessage类型！
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#ff79c6">&amp;lt;&lt;/span>/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/pre&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>这种跨越项目的类型关联能力，细节处见真章。&lt;/p></description></item></channel></rss>
